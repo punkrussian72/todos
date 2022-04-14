@@ -1,0 +1,34 @@
+body {
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+@media all and (max-width: 1200px) {
+    .wrapper {
+        width: 70%;
+    }
+}
+
+@media all and (max-width: 870px) {
+    .wrapper {
+        width: 80%;
+    }
+}
+
+@media all and (max-width: 720px) {
+    .wrapper {
+        width: 90%;
+    }
+}

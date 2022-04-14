@@ -1,0 +1,4 @@
+.table-cell {
+    min-height: 20px;
+    overflow-wrap: break-word;
+}

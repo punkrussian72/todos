@@ -1,0 +1,33 @@
+.filter-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-field {
+    width: 200px;
+    padding: 8px;
+    border-color: #cacaca;
+    border-width: 1px;
+    outline: none;
+    border-style: solid;
+}
+
+@media all and (max-width: 671px) {
+    .filter-form {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .filter-form .form-field-wrapper {
+        margin-bottom: 10px;
+    }
+
+    .filter-form .form-field-wrapper:first-child .form-field {
+        width: calc(100% - 74px);
+    }
+
+    .filter-form .form-field-wrapper:last-child .form-field {
+        width: calc(100% - 87px);
+    }
+}
